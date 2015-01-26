@@ -91,7 +91,7 @@ namespace {
   // Evaluation weights, indexed by evaluation term
   enum { Mobility, PawnStructure, PassedPawns, Space, KingSafety };
   const struct Weight { int mg, eg; } Weights[] = {
-    {297, 347}, {210, 200}, {235, 281}, {47, 0}, {307, 0}
+    {298, 347}, {205, 198}, {237, 281}, {47, 0}, {305, 0}
   };
 
   #define V(v) Value(v)
